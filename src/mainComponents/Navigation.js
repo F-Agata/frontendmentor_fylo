@@ -5,7 +5,7 @@ import "../scss/Navigation.scss"
 
 function Navigation() {
     return (
-        <div className="App">
+        <div className="navigation">
           jestem menu
 
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +8,18 @@
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
+
   max-width: 1440px;
+  min-width: 375px;
   min-height: 100vh;
   margin: 0 auto;
   text-align: center;
 
-  background-color: lightgray;
+  background-color: hsl(218, 28%, 13%);
+
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
 }
