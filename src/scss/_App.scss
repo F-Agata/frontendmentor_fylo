@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1440px;
+  min-width: 375px;
+  min-height: 200vh;
+  margin: 0 auto;
+  text-align: center;
+
+  background-color: hsl(218, 28%, 13%);
+
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+}

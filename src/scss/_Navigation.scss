@@ -1,0 +1,70 @@
+.navigation {
+  height: 40px;
+  width: 100%;
+  margin: 30px 20px;
+
+  display: flex;
+
+  position: sticky;
+  top: 0;
+
+  background-color: hsl(218, 28%, 13%);
+
+
+
+}
+
+.navigation__wrapLogo {
+  height: 30px;
+  //margin-right: 20px;
+
+
+}
+
+.navigation__logo {
+  height: 100%;
+
+}
+
+.navigation__wrapNavigation {
+  flex-basis: 80%;
+  flex-grow: 1;
+
+}
+
+.navigation__navigation {
+
+
+
+}
+
+.navigation__ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  //background-color: yellow;
+
+
+}
+
+.navigation__li {
+  //background-color: green;
+
+  padding: 5px 30px;
+
+  cursor: pointer;
+
+}
+
+.navigation__link {
+
+
+  font-family: Raleway, sans-serif;
+  color: white;
+
+  text-decoration: none;
+  letter-spacing: 1px;
+
+}

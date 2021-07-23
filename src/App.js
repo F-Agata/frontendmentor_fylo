@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './scss/App.scss';
+import './scss/_App.scss';
 
 import Navigation from "./mainComponents/Navigation";
 import Header from "./mainComponents/Headre";
