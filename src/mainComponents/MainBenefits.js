@@ -31,7 +31,9 @@ function MainBenefits() {
 
     const oneBenefit = benefitsList.map(benefit => (
         <div className={"mainBenefits__benefit benefit"} key={benefit.title}>
+            <div className={"benefit__pictureWrapp"}>
             <img className={"benefit__picture"} src={benefit.picture} alt={benefit.title}/>
+            </div>
             <h2 className={"benefit__title"}>{benefit.title}</h2>
             <p className={"benefit__text"}>{benefit.text}</p>
         </div>
@@ -39,9 +41,9 @@ function MainBenefits() {
     ))
 
     return (
-        <div className="mainBenefits">
+        <section className="mainBenefits">
             {oneBenefit}
-        </div>
+        </section>
     );
 }
 

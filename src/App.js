@@ -14,6 +14,7 @@ function App() {
         <Navigation/>
         <Header/>
         <MainBenefits/>
+        <MainHowFyloWorks/>
 
 
 

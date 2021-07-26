@@ -1,0 +1,40 @@
+.mainBenefits {
+
+  height: 90vh;
+  margin: 0 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+
+}
+
+
+
+.mainBenefits__benefit {
+
+  margin: 40px auto;
+
+}
+
+
+.benefit__pictureWrapp{
+  margin-bottom: 25px;
+
+}
+
+.benefit__picture {
+
+}
+
+.benefit__title {
+  margin-bottom: 15px;
+  font-size: 16px;
+
+}
+
+.benefit__text {
+  letter-spacing: 1px;
+
+}
