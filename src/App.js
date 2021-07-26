@@ -2,8 +2,11 @@ import React from 'react'
 
 import './scss/_App.scss';
 
-import Navigation from "./mainComponents/Navigation";
+
 import Header from "./mainComponents/Headre";
+import MainBenefits from "./mainComponents/MainBenefits";
+import Navigation from "./mainComponents/Navigation";
+
 
 function App() {
   return (
