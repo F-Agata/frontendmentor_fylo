@@ -57,15 +57,18 @@
 .header__btnGetStarted {
   margin-top: 20px;
 
+  height: 60px;
+  width: 250px;
+  padding: 0 20px;
+
   background:  linear-gradient(90deg, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
   border-radius: 50px;
 
   font-family: Raleway, sans-serif;
   font-size: 16px;
+  //line-height: 20px;
   font-weight: bold;
   color: white;
-
-  padding: 15px 80px;
 
   cursor: pointer;
 
