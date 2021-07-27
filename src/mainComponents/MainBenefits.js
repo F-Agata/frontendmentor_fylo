@@ -6,7 +6,7 @@ import access from "../img/icon-access-anywhere.svg"
 import security from "../img/icon-security.svg"
 import collaboration from "../img/icon-collaboration.svg"
 import files from "../img/icon-any-file.svg"
-import headerIllustration from "../img/illustration-intro.png";
+
 
 const benefitsList = [
     {picture: access,
