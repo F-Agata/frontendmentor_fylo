@@ -1,0 +1,91 @@
+.mainOpinions {
+  margin: 0 40px;
+  position: relative;
+
+
+}
+
+.mainOpinions__quotesWrapp {
+  width: 40px;
+  position: absolute;
+  z-index: 1;
+  left: 15px;
+
+
+
+}
+
+.mainOpinions__quotes {
+
+}
+
+.mainOpinions__opinionWrapp {
+  //position: absolute;
+  //z-index: ;
+  background-color: hsl(219, 30%, 18%);
+  margin-bottom: 20px;
+  margin-top: 37px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+
+
+}
+
+.mainOpinions__text {
+  line-height: 20px;
+  font-size: 12px;
+
+
+}
+
+.mainOpinions__cardWrapp {
+
+  margin: 20px 0;
+  //position: relative;
+  display: grid;
+  grid-template-columns: 40px 20px 1fr;
+  grid-template-rows: 20px 20px;
+  grid-template-areas:
+          "pictureCell noneCell nameCell"
+          "pictureCell noneCell workCell";
+
+
+}
+
+.mainOpinions__pictureWrapp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  grid-area: pictureCell;
+  //margin-right: 20px;
+  //position: absolute;
+
+
+}
+
+.mainOpinions__picture {
+  width: 100%;
+  height: 100%;
+
+}
+
+.mainOpinions__name {
+  line-height: 20px;
+  font-size: 14px;
+  grid-area: nameCell;
+  //flex-grow: 1;
+  //flex-basis: 40%;
+  //position: absolute;
+
+}
+
+.mainOpinions__work {
+  line-height: 20px;
+  font-size: 12px;
+  grid-area: workCell;
+  //flex-grow: 1;
+  //position: absolute;
+
+}
