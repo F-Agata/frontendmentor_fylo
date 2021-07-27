@@ -8,6 +8,7 @@ import MainBenefits from "./mainComponents/MainBenefits";
 import MainHowFyloWorks from "./mainComponents/MainHowFyloWorks";
 import Navigation from "./mainComponents/Navigation";
 import MainOpinions from "./mainComponents/MainOpinions"
+import MainAccess from "./mainComponents/MainAccess";
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <MainBenefits/>
         <MainHowFyloWorks/>
         <MainOpinions/>
+        <MainAccess/>
+
 
 
     </div>

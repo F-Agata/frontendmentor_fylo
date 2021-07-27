@@ -5,7 +5,7 @@ import "../scss/_MainOpinions.scss"
 import profile1 from "../img/profile-1.jpg"
 import profile2 from "../img/profile-2.jpg"
 import profile3 from "../img/profile-3.jpg"
-import quotes from "../img/bg-quotes.png"
+
 
 
 
@@ -51,9 +51,7 @@ function MainOpinions() {
 
     return (
         <section className="mainOpinions">
-            <div  className="mainOpinions__quotesWrapp">
-                <img className={"mainOpinions__quotes"} src={quotes} alt={"backgroundQuotes"}/>
-            </div>
+
             {oneOpinion}
         </section>
 
