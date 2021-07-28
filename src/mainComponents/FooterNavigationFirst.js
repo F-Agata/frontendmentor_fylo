@@ -1,26 +1,26 @@
 import React from 'react'
 
-import "../scss/_FooterNavigationFirst.scss"
+import "../scss/_FooterNavigation.scss"
 
 
 
 
 function FooterNavigationFirst() {
     return (
-            <div className={"navigation__wrapNavigation"}>
-                <nav className={"navigation__navigation"}>
-                    <ul className={"navigation__ul"}>
-                        <li className={"navigation__li"}>
-                            <a className={"navigation__link"} href={"#"}>About Us</a>
+            <div className={"footerNavigation__wrapNavigation"}>
+                <nav className={"footerNavigation__navigation"}>
+                    <ul className={"footerNavigation__ul"}>
+                        <li className={"footerNavigation__li"}>
+                            <a className={"footerNavigation__link"} href={"#"}>About Us</a>
                         </li>
-                        <li className={"navigation__li"}>
-                            <a className={"navigation__link"} href={"#"}>Jobs</a>
+                        <li className={"footerNavigation__li"}>
+                            <a className={"footerNavigation__link"} href={"#"}>Jobs</a>
                         </li>
-                        <li className={"navigation__li"}>
-                            <a className={"navigation__link"} href={"#"}>Press</a>
+                        <li className={"footerNavigation__li"}>
+                            <a className={"footerNavigation__link"} href={"#"}>Press</a>
                         </li>
-                        <li className={"navigation__li"}>
-                            <a className={"navigation__link"} href={"#"}>Blog</a>
+                        <li className={"footerNavigation__li"}>
+                            <a className={"footerNavigation__link"} href={"#"}>Blog</a>
                         </li>
                     </ul>
                 </nav>

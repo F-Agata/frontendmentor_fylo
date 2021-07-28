@@ -1,7 +1,46 @@
 .footer {
   margin:   40px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+.footer__wrapIconsSM {
+  text-align: center;
+  //background-color: yellow;
+
+  margin-top: 20px;
+
+}
+
+.footer__wrapIconSM {
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+
+  //background-color: red;
+
+  position: relative;
+
 }
 
 .fab {
+  position: absolute;
+
+  //width: 20px;
+  //height: 20px;
   color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
 }

@@ -1,0 +1,29 @@
+.footerNavigation__wrapNavigation {
+  margin: 40px 0;
+
+
+ }
+
+.footerNavigation__navigation {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footerNavigation__ul {
+  list-style: none;
+}
+
+.footerNavigation__li {
+  padding: 5px 10px;
+
+  cursor: pointer;
+}
+
+.footerNavigation__link {
+  font-family: Raleway, sans-serif;
+  color: white;
+
+  text-decoration: none;
+  letter-spacing: 1px;
+}

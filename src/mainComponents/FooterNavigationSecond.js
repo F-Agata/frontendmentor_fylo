@@ -1,23 +1,23 @@
 import React from 'react'
 
-import "../scss/_FooterNavigationSecond.scss"
+import "../scss/_FooterNavigation.scss"
 
 
 
 
 function FooterNavigationSecond() {
     return (
-        <div className={"navigation__wrapNavigation"}>
-            <nav className={"navigation__navigation"}>
-                <ul className={"navigation__ul"}>
-                    <li className={"navigation__li"}>
-                        <a className={"navigation__link"} href={"#"}>Contact Us</a>
+        <div className={"footerNavigation__wrapNavigation"}>
+            <nav className={"footerNavigation__navigation"}>
+                <ul className={"footerNavigation__ul"}>
+                    <li className={"footerNavigation__li"}>
+                        <a className={"footerNavigation__link"} href={"#"}>Contact Us</a>
                     </li>
-                    <li className={"navigation__li"}>
-                        <a className={"navigation__link"} href={"#"}>Terms</a>
+                    <li className={"footerNavigation__li"}>
+                        <a className={"footerNavigation__link"} href={"#"}>Terms</a>
                     </li>
-                    <li className={"navigation__li"}>
-                        <a className={"navigation__link"} href={"#"}>Privacy</a>
+                    <li className={"footerNavigation__li"}>
+                        <a className={"footerNavigation__link"} href={"#"}>Privacy</a>
                     </li>
                 </ul>
             </nav>
