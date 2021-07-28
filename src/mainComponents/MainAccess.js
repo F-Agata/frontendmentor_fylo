@@ -1,9 +1,8 @@
 import React from 'react'
 
-import "../scss/_MainHowFyloWorks.scss"
+import "../scss/_MainAccess.scss"
 
-import stayProductive from "../img/illustration-stay-productive.png"
-import iconArrow from "../img/icon-arrow.svg"
+
 
 
 

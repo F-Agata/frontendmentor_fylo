@@ -9,6 +9,7 @@ import MainHowFyloWorks from "./mainComponents/MainHowFyloWorks";
 import Navigation from "./mainComponents/Navigation";
 import MainOpinions from "./mainComponents/MainOpinions"
 import MainAccess from "./mainComponents/MainAccess";
+import Footer from "./mainComponents/Footer";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <MainHowFyloWorks/>
         <MainOpinions/>
         <MainAccess/>
+        <Footer/>
+
 
 
 
