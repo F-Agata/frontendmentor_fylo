@@ -13,10 +13,11 @@ function MainHowFyloWorks() {
             <div className={"mainHowFyloWorks__pictureWrapp"}>
                 <img className={"mainHowFyloWorks__picture"} src={stayProductive} alt={"illustationStayProductive"}/>
             </div>
-            <h2 className={"mainHowFyloWorks__title"}>Stay productive, wherever you are</h2>
-            <p className={"mainHowFyloWorks__text"}>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. </p>
-            <p className={"mainHowFyloWorks__text"}>Securely share files and folders with friends, family and collaguees for live collaboration. No email attachments required.</p>
-            <a className={"mainHowFyloWorks__link"} href={"#"}>See how Fylo works
+            <div className={"mainHowFyloWorks__informationWrapp"}>
+             <h2 className={"mainHowFyloWorks__title"}>Stay productive, wherever you are</h2>
+             <p className={"mainHowFyloWorks__text"}>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. </p>
+             <p className={"mainHowFyloWorks__text"}>Securely share files and folders with friends, family and collaguees for live collaboration. No email attachments required.</p>
+             <a className={"mainHowFyloWorks__link"} href={"#"}>See how Fylo works
                 <span className={"mainHowFyloWorks__linkSpan"}>
                     {/*<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"*/}
                     {/*     xmlns:xlink="http://www.w3.org/1999/xlink">*/}
@@ -34,7 +35,8 @@ function MainHowFyloWorks() {
                     {/*</svg>*/}
                     <img className={"mainHowFyloWorks__linkArrow"} src={iconArrow} alt={"arrowGo"}/>
                 </span>
-            </a>
+             </a>
+            </div>
 
         </section>
     );

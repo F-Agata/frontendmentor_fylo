@@ -7,6 +7,19 @@
   flex-direction: column;
   align-content: center;
 
+  @media (min-width: 768px) {
+    margin: 0 200px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    //border: purple 2px solid;
+
+  }
+
+
+
 
 }
 
@@ -15,6 +28,16 @@
 .mainBenefits__benefit {
 
   margin: 40px auto;
+
+  max-width: 480px;
+
+  @media (min-width: 768px) {
+    width: 40%;
+    //border: 2px solid red;
+    align-self: center;
+    justify-self: center;
+  }
+
 
 }
 

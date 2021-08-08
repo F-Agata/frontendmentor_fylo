@@ -1,6 +1,8 @@
 .header {
   height: 90vh;
-  margin: 0 40px;
+  max-width: 500px;
+  padding: 0 40px;
+  margin: 0 auto;
 
   //background-color: yellowgreen;
 
@@ -17,13 +19,13 @@
 
 .header__wrapIllustration {
   overflow: hidden;
-  //flex-basis: 50%;
+  margin: 0 auto;
   width: 100%;
+  max-width: 480px;
   //align-self: center;
+  }
 
 
-  //background-color: tan;
-}
 
 
 
@@ -36,15 +38,24 @@
 
 .header__text {
 
+  //background-color: red;
+
   width: 100%;
-  margin-top: 15px;
+  margin-top: 20px;
 
   font-size: 12px;
+
+  //@media (min-width: 520px) {
+  //  padding-bottom: 40px;
+  //  margin-top: 40px;
+  //
+  //}
+
 
 }
 
 .header__title {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 20px;
 
 }
@@ -55,7 +66,7 @@
 }
 
 .header__btnGetStarted {
-  margin-top: 20px;
+  margin: 40px 0;
 
   height: 60px;
   width: 250px;

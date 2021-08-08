@@ -1,3 +1,95 @@
 .footer__contactWrapp {
 
+  margin-top: 40px;
+  padding-right: 20px;
+
+  //border: red 2px solid;
+
+
+  display: grid;
+  //column-gap: 0px;
+  row-gap: 15px;
+  //justify-items: start;
+  //align-items: start;
+  //justify-content: start;
+  align-content: start;
+  grid-template-columns: 40px 1fr;
+  //grid-template-rows: auto auto auto;
+  grid-template-areas:
+          "iconeLocationCell  descriptionLocationCell"
+          "iconePhoneCell  descriptionPhoneCell"
+          "iconeEmailCell  descriptionEmailCell";
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+
+  @media (min-width: 992px) {
+
+      width: 55%;
+
+    row-gap: 0px;
+
+    grid-template-columns: 40px auto  40px auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+          "iconeLocationCell descriptionLocationCell iconePhoneCell  descriptionPhoneCell"
+          //"iconeLocationCell noneCell descriptionLocationCell  noneCell noneCell noneCell noneCell"
+          "iconeLocationCell  descriptionLocationCell  iconeEmailCell  descriptionEmailCell";
+
+  }
+
+}
+
+.footer__wrapIconLocation {
+  grid-area: iconeLocationCell;
+  padding-right: 25px;
+  //border: 2px solid hotpink;
+}
+.footer__wrapIconPhone {
+  grid-area: iconePhoneCell;
+  padding-right: 25px;
+  //border: 2px solid hotpink;
+}
+.footer__wrapIconEmail {
+  grid-area: iconeEmailCell;
+  padding-right: 20px;
+  //border: 2px solid hotpink;
+}
+
+.footer__descriptionLocation {
+  grid-area: descriptionLocationCell;
+  max-width: 400px;
+  padding-right: 25px;
+  //border: 2px solid palegoldenrod;
+}
+.footer__descriptionPhone {
+  grid-area: descriptionPhoneCell;
+  padding-right: 25px;
+  max-width: 400px;
+  //border: 2px solid palegoldenrod;
+}
+.footer__descriptionEmail {
+  grid-area: descriptionEmailCell;
+  padding-right: 25px;
+  max-width: 400px;
+  //border: 2px solid palegoldenrod;
+}
+
+
+.footer__wrapIcon {
+
+  //background-color: green;
+
+}
+
+.footer__icon {
+  width: 100%;
+
+
+}
+
+.footer__description {
+
+
 }

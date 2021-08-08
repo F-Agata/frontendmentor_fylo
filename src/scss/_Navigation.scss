@@ -1,7 +1,9 @@
 .navigation {
-  height: 40px;
+  height: 60px;
+
   //width: 100%;
-  margin: 30px 20px;
+  margin: 15px 0px;
+  //border: hotpink 2px solid;
 
   display: flex;
 
@@ -10,12 +12,19 @@
 
   background-color: hsl(218, 28%, 13%);
 
+  @media (min-width: 768px) {
+    padding: 0 40px;
+  }
+
 
 
 }
 
 .navigation__wrapLogo {
   height: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  //padding: 5px 0px;
   //margin-right: 20px;
 
 
@@ -29,6 +38,8 @@
 .navigation__wrapNavigation {
   flex-basis: 80%;
   flex-grow: 1;
+  margin-top: 15px;
+  margin-right: 20px;
 
 }
 
@@ -56,6 +67,10 @@
 
   cursor: pointer;
 
+  @media (min-width: 768px) {
+    padding: 5px 20px;
+  }
+
 }
 
 .navigation__link {
@@ -67,4 +82,10 @@
   text-decoration: none;
   letter-spacing: 1px;
 
+  border-bottom: 1px solid hsl(218, 28%, 13%);
+
+}
+
+.navigation__link:hover {
+  border-bottom: 1px solid white;
 }

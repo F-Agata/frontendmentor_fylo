@@ -1,5 +1,7 @@
 .mainAccess {
-  margin:   40px;
+
+  max-width: 760px;
+  margin:   80px 40px;
 
   padding: 20px 20px 40px 20px;
 
@@ -10,10 +12,15 @@
   background-color: hsl(219, 30%, 18%);
   border-radius: 5px;
 
+  @media (min-width: 768px) {
+    width: 760px;
+    margin:   80px auto;
+  }
+
 }
 
 .mainAccess__title {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 20px;
 }
 
@@ -21,6 +28,11 @@
   letter-spacing: 1px;
   margin: 15px;
   line-height: 20px;
+
+  @media (min-width: 768px) {
+    //border: red 2px solid;
+    margin: 15px 40px;
+  }
 }
 
 .mainAccess__form {
@@ -28,6 +40,14 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    //border: green solid 2px;
+  }
 
 
   //background-color: yellow;
@@ -48,12 +68,18 @@
 
 
   height: 60px;
-  width: 300px;
+  width: 280px;
   padding: 0 20px;
 
   cursor: pointer;
 
+  @media (min-width: 768px) {
+    flex-basis: 60%;
+
+  }
+
 }
+
 
 .mainAccess__btn {
 
@@ -70,8 +96,43 @@
   color: white;
 
   height: 60px;
-  width: 300px;
+  width: 280px;
   padding: 0 20px;
 
   cursor: pointer;
+
+
+  @media (min-width: 768px) {
+    flex-basis: 33%;
+
+  }
+
+}
+
+.mainAccess__message {
+  @media (min-width: 768px) {
+    flex-basis: 80%;
+    //padding-right: 200px;
+    //align-self: flex-start ;
+    //justify-self: flex-end;
+    order: 2;
+
+    //border: purple 2px solid;
+
+    text-align: start;
+
+
+  }
+
+
+}
+
+
+.mainAccess__btn:hover {
+  background: linear-gradient(90deg, hsl(176, 68%, 64%) 0%, hsl(176, 68%, 64%) 100%);
+}
+
+.mainAccess__message {
+  font-size: 10px;
+  color: red;
 }

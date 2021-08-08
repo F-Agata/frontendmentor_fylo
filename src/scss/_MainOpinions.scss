@@ -1,7 +1,22 @@
 .mainOpinions {
-  margin: 0 60px;
+  margin: 0 80px;
   //position: relative;
-  background: url("../img/bg-quotes.png") left top no-repeat;
+  background: url("../img/bg-quotes.png") 20px top no-repeat;
+  background-size: 30px ;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    //align-items: stretch;
+    justify-content: space-around;
+    background-size: 40px ;
+    margin: 0 90px;
+
+
+    //border: green solid 2px;
+  }
 
 
 
@@ -10,14 +25,32 @@
 
 
 .mainOpinions__opinionWrapp {
-
-
+  //max-width: 700px;
   background-color: hsl(219, 30%, 18%);
-  margin-bottom: 20px;
-  margin-top: 37px;
-  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 30px 20px 5px 20px;
   text-align: left;
   border-radius: 5px;
+
+  //align-self: center;
+
+  display: flex;
+  flex-direction: column;
+
+
+  @media (min-width: 992px) {
+
+    flex-basis: 30%;
+    justify-self: center;
+    align-self: stretch;
+    //border: yellow 2px solid;
+    margin: 26px ;
+
+  }
+
+
+
 
 
 }
@@ -25,20 +58,30 @@
 .mainOpinions__text {
   line-height: 20px;
   font-size: 12px;
+  flex-grow: 1;
+
 
 
 }
 
 .mainOpinions__cardWrapp {
 
-  margin: 20px 0;
+  margin: 20px 0 20px 0;
+
+
 
    display: grid;
+  align-content: flex-start;
   grid-template-columns: 40px 20px 1fr;
-  grid-template-rows: 20px 20px;
+  //grid-template-rows: 20px 20px;
   grid-template-areas:
           "pictureCell noneCell nameCell"
           "pictureCell noneCell workCell";
+
+  @media (min-width: 992px) {
+    width: 100%;
+    align-self: flex-end;
+  }
 
 
 }

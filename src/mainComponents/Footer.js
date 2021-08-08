@@ -22,8 +22,11 @@ function Footer() {
             </div>
 
             <FooterContact/>
-            <FooterNavigationFirst/>
-            <FooterNavigationSecond/>
+
+            <div className={"footerNavigation__wrapNavigations"}>
+             <FooterNavigationFirst/>
+             <FooterNavigationSecond/>
+            </div>
 
             <div className={"footer__wrapIconsSM"}>
                 <span className={"footer__wrapIconSM"}> <i className="fab fa-facebook-f"></i></span>
